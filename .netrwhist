@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/amadeus/projects/apps/mamp/fe/libs'
+let g:netrw_dirhist_2='/Users/amadeus/projects/apps/mamp/fe/src'
+let g:netrw_dirhist_3='/Users/amadeus/projects/apps/rls/flash_cards/public'
+let g:netrw_dirhist_4='/Users/amadeus/projects/apps/mamp/algorithms'
+let g:netrw_dirhist_5='/Users/amadeus/projects/apps/mamp/fe/src/Financial_Profile'
+let g:netrw_dirhist_6='/Users/amadeus/projects/apps/mamp/fe/src'
+let g:netrw_dirhist_7='/Users/amadeus/projects/apps/node/overridely/public/js'
+let g:netrw_dirhist_8='/Users/amadeus/projects/apps/mamp/fe'
