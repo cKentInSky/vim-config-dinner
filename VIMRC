@@ -35,6 +35,7 @@ set copyindent
 
 " autocmd BufEnter * lcd %:p:h
 imap jk <Esc>
+imap <C-O> :NERDTreeToggle ~/<CR>
 
 "init pathogen
 call pathogen#infect()
@@ -96,6 +97,18 @@ endif
 if &t_Co > 2 || has("gui_running")
   syntax on
   set hlsearch
+endif
+
+colorscheme torte
+
+if has("gui_running")
+    syntax on
+    set hlsearch
+    colorscheme ir_black
+    set guifont:Menlo:h16
+    set bs=2
+    set ai
+    set ruler
 endif
 
 " Only do this part when compiled with support for autocommands.
