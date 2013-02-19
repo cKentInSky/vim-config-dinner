@@ -33,6 +33,8 @@ set expandtab
 set autoindent
 set copyindent
 
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 " autocmd BufEnter * lcd %:p:h
 imap jk <Esc>
 imap <C-O> :NERDTreeToggle ~/<CR>
