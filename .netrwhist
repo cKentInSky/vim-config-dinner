@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/amadeus/projects/apps/py/darbysmart/ds-main/js'
 let g:netrw_dirhist_2='/Users/amadeus/projects/apps/py/darbysmart/ds-main/darby'
 let g:netrw_dirhist_3='/Users/amadeus/projects/apps/py/darbysmart/ds-main/darby/darby'
 let g:netrw_dirhist_4='/Users/amadeus/projects/apps/node/overridely/public/js/libs/ace/lib/ace'
+let g:netrw_dirhist_5='/usr/local/etc/nginx'
