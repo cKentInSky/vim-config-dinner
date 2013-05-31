@@ -202,3 +202,32 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
+
+
+nmap \q :nohlsearch<CR>
+"open file and return to current file
+nmap <C-2> :e#<CR>
+"prev and nex buffer
+nmap <C-n> :bnext<CR>
+nmap <C-p> :bprev<CR>
+
+" ctrl-P settings
+nmap ; :CtrlPBuffer<CR>
+let g:ctrlp_map = '<Leader>t'
+let g:ctrlp_match_window_bottom = 0
+let g:ctrlp_match_window_reversed = 0
+let g:ctrlp_custom_ignore = '\v\~$|\.(o|swp|pyc|wav|mp3|ogg|blend)$|(^|[/\\])\.(hg|git|bzr)($|[/\\])|__init__\.py'
+let g:ctrlp_working_path_mode = 0
+let g:ctrlp_dotfiles = 0
+let g:ctrlp_switch_buffer = 0
+
+nmap \e :NERDTreeToggle<CR>
+nmap \f :NERDTreeFind<CR>
+
+" different tab settings for different langs
+nmap \t :set expandtab tabstop=4 shiftwidth=4 softtabstop=4<CR>
+nmap \T :set expandtab tabstop=8 shiftwidth=8 softtabstop=4<CR>
+nmap \M :set noexpandtab tabstop=8 softtabstop=4 shiftwidth=4<CR>
+nmap \m :set expandtab tabstop=2 shiftwidth=2 softtabstop=2<CR>
+
+
